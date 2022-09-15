@@ -1,0 +1,290 @@
+@import "./fonts.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 100px;
+    z-index: 100000;
+    background-color: #db3535;
+    user-select: none;
+    font-family: 'MuseoModerno', cursive;
+
+    .logo {
+        position: relative;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: 0.6s;
+    }
+
+    &.sticky1{
+        padding: 5px 100px;
+        background: #000000;
+    }
+
+    ul{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li{
+            position: relative;
+            list-style: none;
+            
+            a{
+                position: relative;
+                margin: 0 15px;
+                text-decoration: none;
+                color: #fff;
+                letter-spacing: 2px;
+                font-weight: 500px;
+                transform: 0.6s;
+            }
+        }
+    }
+}
+
+.home1{
+    position: relative;
+    text-align: center;
+}
+
+.fullscreen{
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+    user-select: none;    
+}
+
+.comunicat1{
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    top: 400px;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 70%, rgba(0,0,0,0) 99%);
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    color: #ffffff;
+    animation: fadeIn 1s forwards;
+
+    .title1{
+        font-size: 20px;
+    }
+}
+
+.comunicat2{
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background: -webkit-linear-gradient(#ffffff, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    .title2{
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .description1{
+        font-size: 15px;
+    }
+
+    .description3{
+        font-size: 25px;
+    }
+
+    .description2{
+        font-size: 34px;
+        font-weight: 600;
+        padding-left: 40%;
+        padding-right: 40%;
+        padding-top: 40px;
+    }
+}
+
+.comunicat3{
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    margin-bottom: 100px;
+
+    a{
+        font-size: 30px;
+        color: #000000;
+        background-color: #ffffff;
+        padding: 10px 40px 10px 40px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.4s;
+
+        &:hover{
+            background-color: #d6d6d6;
+        }
+    }
+}
+
+.comunicat4{
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background: -webkit-linear-gradient(#ffffff, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    padding-bottom: 200px;
+
+    .title3{
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .description4{
+        font-size: 27px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.contract-container{
+    margin-top: 200px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background: -webkit-linear-gradient(#ffffff, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+    .title{
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .description{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 20px;
+
+        a{
+            font-weight: 700;
+        }
+    }
+
+    .location{
+        iframe{
+            border-radius: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fadeIn{
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #db3535; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a82828; 
+}
