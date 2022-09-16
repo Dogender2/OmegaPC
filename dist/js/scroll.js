@@ -5,7 +5,7 @@ window.addEventListener("scroll", function(){
 
     
     var com2 = document.querySelector(".comunicat4");
-    com2.classList.toggle("fadeIn", window.scrollY > 800);
+    com2.classList.toggle("fadeIn", window.scrollY > 700);
 })
 
 
